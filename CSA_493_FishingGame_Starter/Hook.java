@@ -1,6 +1,7 @@
 /**
  * Activity 4.9.3
  */
+
 public class Hook extends LakeObject
 {
   private int strength = 45;
@@ -12,4 +13,11 @@ public class Hook extends LakeObject
     //return strength;
   }
 
+  /*---------- methods ----------*/
+  //added for step 12
+  @Override
+  public String say()
+  {
+    return "You now have a hook!";
+  }
 }

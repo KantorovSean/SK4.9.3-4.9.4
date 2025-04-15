@@ -196,7 +196,7 @@ public class GameGUI extends JComponent implements ActionListener {
     if (index == 0)
     {
         try {
-          itemImage = ImageIO.read(new File("Wallet.png"));
+          itemImage = ImageIO.read(new File("CSA_493_FishingGame_Starter\\Wallet.png"));
         } catch (Exception e) {
           System.err.println("Warning: Could not open file Wallet.png");
         }
@@ -209,7 +209,7 @@ public class GameGUI extends JComponent implements ActionListener {
       
         // a try is like an if statement, "throwing" an error if the body of the try fails
       try {
-        itemImage = ImageIO.read(new File(imageName + ".png"));
+        itemImage = ImageIO.read(new File("CSA_493_FishingGame_Starter\\" + imageName + ".png"));
       } catch (Exception e) {
         System.err.println("Warning: Could not open file " + imageName + ".png");
       }
